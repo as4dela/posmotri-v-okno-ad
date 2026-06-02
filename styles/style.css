@@ -14,8 +14,8 @@ html {
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
-  color: #FFF;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #fff;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -49,7 +49,7 @@ ol {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 /* ---------- Утилитарные классы ---------- */
@@ -62,7 +62,7 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-} 
+}
 
 /* ---------- Основные стили страницы ---------- */
 
@@ -71,7 +71,6 @@ ol {
   align-items: center;
   justify-content: center;
 }
-
 
 /* ---------- Сетка (грид) ---------- */
 
@@ -117,7 +116,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -137,7 +136,7 @@ ol {
   min-block-size: 27px;
   color: #fff;
   background-color: transparent;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -171,7 +170,7 @@ ol {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  content: '';
+  content: "";
   min-inline-size: 15px;
   min-block-size: 15px;
   background-color: #fff;
@@ -263,7 +262,7 @@ ol {
 /* ---------- Ссылки карточек ---------- */
 
 .content__card-link {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   display: block;
 }
@@ -314,7 +313,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
